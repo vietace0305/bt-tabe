@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html"
+      xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Tiki</title>
+</head>
+<body>
+<form>
+    <table>
+        <tr>
+            <td>Họ tên </td> <td><input type="text"/></td>
+        </tr>
+        <tr>
+            <td>Điện thoại di động</td><td><input type="text"/></td>
+        </tr>
+        <tr>
+            <td>Tỉnh/Thành phố </td><td><select>
+    <option>Hà nội</option>
+    <option>huế</option>
+    <option>Đà nẵng</option>
+    <option>Nghệ An</option>
+        </select></td>
+        </tr>
+        <tr>
+            <td>Quận/Huyện</td> <td><input type="text"/></td>
+        </tr>
+    <tr>
+
+        <td>Phường/ xã</td> <td> <input type="text"/></td>
+    </tr>
+        <tr>
+            <td> Địa chỉ</td> <td> <input type="text"/> </td>
+        </tr>
+
+    </table>
+    loại địa chỉ </br>
+    <input type="radio" name="loaidiachi"> nhà riêng/ chung cư </input>
+                 <input type="radio" name="loaidiachi"> cơ quan/công ty </input> <br/>
+     <input type="checkbox"> sử dụng địa chỉ này làm mặc đinh </input></br>
+    <button>Giao đến địa chỉ này</button>
+    <button>sử dụng địa chỉ này làm mặc định</button><br/>
+
+
+</form>
+
+</body>
+</html>
